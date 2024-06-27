@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <main class="calculadora">
+        <h2 class="resultado" id="resultado"></h2>
+        <div class="acomodo">
+            <button id="btn-limpiar" class="boton" value="C">C</button>
+            <button class="boton btn-valor" value="(">(</button>
+            <button class="boton btn-valor" value=")">)</button>
+            <button class="boton btn-valor operador" value="/">/</button>
+            <button class="boton btn-valor" value="7">7</button>
+            <button class="boton btn-valor" value="8">8</button>
+            <button class="boton btn-valor" value="9">9</button>
+            <button class="boton btn-valor operador" value="*">*</button>
+            <button class="boton btn-valor" value="4">4</button>
+            <button class="boton btn-valor" value="5">5</button>
+            <button class="boton btn-valor" value="6">6</button>
+            <button class="boton btn-valor operador" value="-">-</button>
+            <button class="boton btn-valor" value="1">1</button>
+            <button class="boton btn-valor" value="2">2</button>
+            <button class="boton btn-valor" value="3">3</button>
+            <button class="boton btn-valor operador" value="+">+</button>
+            <button class="boton btn-valor" value="0">0</button>
+            <button class="boton btn-valor" value=".">.</button>
+            <button id="btn-calcular" class="boton igual" value="=">=</button>
+        </div>
+    </main>
+</body>
+</html>
